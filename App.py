@@ -47,7 +47,6 @@ start = st.sidebar.date_input("Start date", today_date - timedelta(days=3*365))
 end = st.sidebar.date_input("End date", today_date)
 
 stocks_in_holding = myp.get_stocks_in_holding(newcursor)
-myp.place_US_stock_order('GM', 39.32, 'B',4250)
 
 if len(stocks_in_holding) > 0:
     close_holding_table = myp.get_close_price(start,end, newcursor)
