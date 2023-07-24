@@ -1,4 +1,4 @@
-altair==5.0.1
+Fpyaltair==5.0.1
 appdirs==1.4.4
 attrs==23.1.0
 backcall==0.2.0
@@ -69,7 +69,6 @@ pyparsing==3.1.0
 python-dateutil==2.8.2
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
-pywin32==305
 pyzmq==25.0.0
 referencing==0.29.1
 requests==2.31.0
